@@ -1,0 +1,106 @@
+name: vet_track
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.20.2
+
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  go_router: ^16.0.0
+
+  shared_preferences: ^2.5.3
+
+  cupertino_icons: ^1.0.8
+
+  fl_chart: ^1.0.0
+
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/splash_image.png
+    - assets/images/onboarding_image_1.png
+    - assets/images/onboarding_image_2.png
+    - assets/images/buffalo.jpg
+    - assets/icons/
+    - assets/logos/
+    - assets/icons/eye_closed.svg
+    - assets/icons/facebook.svg
+    - assets/icons/google.svg
+    - assets/icons/notification.svg
+    - assets/icons/search.svg
+    - assets/icons/home_selected_icon.svg
+    - assets/icons/home_unselected_icon.svg
+    - assets/icons/animal_selected_icon.svg
+    - assets/icons/animal_unselected_icon.svg
+    - assets/icons/shop_selected_icon.svg
+    - assets/icons/shop_unselected_icon.svg
+    - assets/icons/wallet_selected_icon.svg
+    - assets/icons/wallet_unselected_icon.svg
+    - assets/icons/pet_selected_icon.svg
+    - assets/icons/pet_unselected_icon.svg
+    - assets/icons/route.svg
+    - assets/icons/setting.svg
+    - assets/icons/note.svg
+    - assets/icons/login.svg
+    - assets/icons/logout.svg
+    - assets/images/english_flag.png
+    - assets/images/bangladesh_flag.png
+    - assets/icons/syringe.svg
+    - assets/icons/thermometer.svg
+    - assets/icons/lovely.svg
+    - assets/icons/egg.svg
+    - assets/icons/milk_products.svg
+    - assets/icons/burger.svg
+    - assets/icons/coin.svg
+    - assets/icons/import.svg
+    - assets/icons/export.svg
+    - assets/icons/milk_organic.svg
+    - assets/icons/capsule.svg
+    - assets/icons/more.svg
+    - assets/icons/price_label.svg
+    - assets/icons/bn_language_icon.svg
+    - assets/icons/en_language_icon.svg
+
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSans-Bold.ttf
+          weight: 700
+
+l10n:
+  arb-dir: lib/l10n
+  template-arb-file: app_en.arb
+  output-localization-file: app_localizations.dart
